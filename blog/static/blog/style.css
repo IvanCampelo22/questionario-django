@@ -1,0 +1,23 @@
+li a {
+    color: red;
+    background: white;
+    font-size: large;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+}
+
+li a:hover, 
+li a :focus{
+    color: blue;
+    transform: translateX(10px) scale(1.2);
+}
+
+body {
+    background: rgba(10, 23, 55, 0.5) url("imagens/interrogação.webp") no-repeat;
+    background-position: 50% 0%;
+    background-color: white
+    
+}
+
+
+
